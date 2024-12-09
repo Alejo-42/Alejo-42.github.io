@@ -33,12 +33,24 @@ header{
                 scale: 1.2;
             }
         }
-        ul{
-            margin: 0;
-            padding: 0;
-            align-items: center;
-            justify-content: end;
-            display: flex;
+        .inicio{
+            .BtnCerrar{
+                display: none;
+                width: 100%;
+                color: white;
+                background-color: black;
+                border: solid 2px darkslategrey;
+                i{
+                    scale: 2;
+                    padding: 2vw;
+                }
+            }
+            ul{
+                margin: 0;
+                padding: 0;
+                align-items: center;
+                justify-content: end;
+                display: flex;
             width: 100%;
             li{
                 list-style-type: none;
@@ -57,18 +69,8 @@ header{
                     background-color: white;
                 }
             }
-            .BtnCerrar{
-                display: none;
-                width: 100%;
-                color: white;
-                background-color: black;
-                border: solid 2px darkslategrey;
-                i{
-                    scale: 2;
-                    padding: 2vw;
-                }
-            }
         }
+    }
         button{
             color: white;
             background-color: black;
@@ -118,7 +120,7 @@ main{
                 padding: 1vw;
             }
             p{
-                font-size: 1.8vw;
+                font-size: 1.5vw;
                 margin: 0;
                 padding: 2vh;
                 flex-wrap: wrap;
@@ -146,7 +148,7 @@ main{
                 padding: 1vw;
             }
             p{
-                font-size: 1.8vw;
+                font-size: 1.5vw;
                 padding: 2vh;
                 margin: 0;
                 flex-wrap: wrap;
@@ -277,6 +279,23 @@ footer{
                 }
             }
             .correo{
+                i{
+                    scale: 1.2;
+                }
+                a{
+                    border: 0;
+                    border-radius: 0;
+                    text-decoration: none;
+                    padding: 1vw;
+                    margin: 0;
+                }
+                a:hover{
+                    text-decoration: underline;
+                    background-color: black;
+                    color: white;
+                }
+            }
+            .direccion{
                 i{
                     scale: 1.2;
                 }
@@ -463,14 +482,12 @@ footer{
             }
             .geo{
                 h4{
-                    font-size: 6vw;
+                    font-size: 5vw;
                     padding: 3vw;
                     margin: 3vw;
                 }
             }
-        }
-        .derechos{
-            font-size: 4.5vw;
+
         }
     }
 }
