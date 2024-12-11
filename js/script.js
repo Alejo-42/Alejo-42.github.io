@@ -12,5 +12,3 @@ function cerrar() {
 }
 $abrir.addEventListener("click",abrir)
 $cerrar.addEventListener("click",cerrar)
-
-
